@@ -1,17 +1,25 @@
-# CommandRack · Volltex™
+# CommandRack™ · Volltex™
 
-This repository is reserved for approved CommandRack preview downloads, signed update manifests and release notes. Application source code is maintained separately.
+Approved CommandRack preview downloads, update information and release notes. Application source code is maintained separately and is not published here.
 
-## Availability
+## Controlled preview
 
-The preview update channel is being prepared. No public release is available yet. Do not treat this repository as a production support or account service.
+[0.3.9 preview](https://github.com/willpv2/CommandRack-Releases/releases/tag/v0.3.9-preview.1) is available for controlled application-update testing. It is not recommended for customer or production machines. Read the release notes and keep the two executable files together.
 
-CommandRack is a developing portable Windows troubleshooting application. Its current development build includes supported diagnostic checks, guided assistance and recorded findings. Features depend on configuration, permissions and hardware; it does not guarantee a repair for every issue.
+The hosted update trial from 0.3.8 to 0.3.9 completed successfully, including restart and preservation of a test settings file. This does not establish compatibility with every PC or qualify every failure scenario.
 
-## Preview releases
+## Limitations
 
-When published, each release will describe its scope, known limitations, package contents and checksums. Preview binaries may not have a trusted Windows publisher signature. A signed update manifest authenticates the update package but does not establish Windows publisher trust or antivirus approval.
+Internet access is required for this preview's startup update check. The current update authorization expires on October 3, 2026 unless renewed; if verification fails, the preview will not open its main workspace. Do not depend on this temporary channel for production support.
 
-No personal credentials, local case records, development-chat settings, AI model downloads or private signing keys belong in this repository. Configured cloud AI may require separate access and usage charges.
+These executables are not Windows publisher-signed. Signed update information verifies the package but does not establish Windows publisher trust or antivirus approval. Do not bypass security controls to run the preview.
 
-Public availability of a download does not grant ownership of the source code or promise free lifetime access, included cloud usage, future features or production support.
+AI models and cloud service access are not bundled. Supported checks and repairs do not cover every PC issue. Commercial accounts, remote technician control and unattended remote repair are not provided by this preview.
+
+## Privacy and downloads
+
+Personal credentials, local case records, development-chat settings and private signing keys are not included. Developer-chat access is excluded from the public build.
+
+GitHub's automatic “Source code” archive links contain only this download repository's public documentation at that tag—not the private CommandRack application source.
+
+Public downloads do not grant ownership of the application source code or promise free lifetime access, included cloud usage, future features or production support.
